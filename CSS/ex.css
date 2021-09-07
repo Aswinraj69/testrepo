@@ -1,0 +1,168 @@
+.parent{
+    background-color: red;
+    width: 800px;
+    height:530px;
+    position: relative;
+    border: 1px solid black;
+}
+.first{
+    background-color: violet;
+    width: 170px;
+    height: 500px;
+    border: 1px solid black;
+    position: absolute;
+    left: 5px;
+    top: 15px;
+}
+.snd{
+    background-color: blue;
+    width: 170px;
+    height: 500px;
+    border: 1px solid black;
+    position: absolute;
+    left: 150px;
+    top: 15px;
+}
+.thd{
+    background-color: rgb(218, 21, 185);
+    width: 170px;
+    height: 500px;
+    border: 1px solid black;
+    position: absolute;
+    left: 300px; 
+    top: 15px;
+
+}
+.for{
+    background-color: rgb(11, 230, 84);
+    width: 170px;
+    height: 500px;
+    border: 1px solid black;
+    position: absolute;
+    left: 470px; 
+    top: 15px;
+
+}
+.fifth{
+    background-color: rgb(240, 187, 13);
+    width: 170px;
+    height: 500px;
+    border: 1px solid black;
+    position: absolute;
+    left: 625px;
+    top: 15px;
+}
+.parent1{
+    background-color:red;
+    width: 800px;
+    height: 530px;
+    position: relative;
+    border: 1px solid black;
+    top: 10px;
+}
+.first1{
+    background-color: violet;
+    width: 170px;
+    height: 500px;
+    border: 1px solid black;
+    position: absolute;
+    left: 5px;
+    top: 15px;
+}
+.snd1{
+    background-color: rgb(58, 45, 240);
+    width: 170px;
+    height: 500px;
+    border: 1px solid black;
+    position: absolute;
+    left: 150px;
+    top: 15px;
+}
+.thd1{
+    background-color: rgb(218, 21, 185);
+    width: 170px;
+    height: 500px;
+    border: 1px solid black;
+    position: absolute;
+    left: 300px; 
+    top: 15px;
+
+}
+.for1{
+    background-color: rgb(11, 230, 84);
+    width: 170px;
+    height: 500px;
+    border: 1px solid black;
+    position: absolute;
+    left: 470px; 
+    top: 15px;
+}
+
+.fifth1{
+        background-color: rgb(240, 187, 13);
+        width: 170px;
+        height: 500px;
+        border: 1px solid black;
+        position: absolute;
+        left: 625px;
+        top: 15px;
+    
+}
+.parent2{
+    
+        background-color:red;
+        width: 800px;
+        height: 530px;
+        position: relative;
+        border: 1px solid black;
+        top: 10px;
+        left: 55% ;
+}
+.first2{
+    background-color: violet;
+    width: 170px;
+    height: 500px;
+    border: 1px solid black;
+    position: absolute;
+    left: 5px;
+    top: 15px;
+}
+.snd2{
+    background-color: rgb(58, 45, 240);
+    width: 170px;
+    height: 500px;
+    border: 1px solid black;
+    position: absolute;
+    left: 150px;
+    top: 15px;
+}
+.thd2{
+    background-color: rgb(218, 21, 185);
+    width: 170px;
+    height: 500px;
+    border: 1px solid black;
+    position: absolute;
+    left: 300px; 
+    top: 15px;
+
+}
+.for2{
+    background-color: rgb(11, 230, 84);
+    width: 170px;
+    height: 500px;
+    border: 1px solid black;
+    position: absolute;
+    left: 470px; 
+    top: 15px;
+}
+
+.fifth2{
+        background-color: rgb(240, 187, 13);
+        width: 170px;
+        height: 500px;
+        border: 1px solid black;
+        position: absolute;
+        left: 625px;
+        top: 15px;
+    
+}

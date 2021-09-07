@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+h1{
+    color: blue;
+}
+#snd{
+    color:#297F87;
+}
+.thd{
+    color:rgb(117, 18, 114);
+}
+div{
+    color: white;
+    border: 2px solid red;
+    font-family: 'Inconsolata', monospace;
+    width: 30%;
+    height:300px;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+body{
+    background-image:url(./bg.jpg);
+    background-size: cover;
+}

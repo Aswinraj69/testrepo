@@ -1,0 +1,14 @@
+.row{
+    background-color: aquamarine;
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+.col{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    position:absolute;
+    top: 100px;
+    left:50%;
+}

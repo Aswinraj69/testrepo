@@ -1,0 +1,31 @@
+.parent{
+    width: 550px;
+    height: 310px;
+    background-color: royalblue;
+    display: flex;
+    /* justify-content:space-evenly; */
+    /* justify-content: flex-end; */
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.col{
+    width: 100px;
+    height: 300px;
+}
+.col1{
+    background-color: salmon;
+
+}
+.col2{
+    background-color: seagreen;
+}
+.col3{
+    background-color: springgreen;
+}
+.col4{
+    background-color: sandybrown;
+}
+.col5{
+    background-color: slateblue;
+}

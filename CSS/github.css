@@ -1,0 +1,53 @@
+.border{
+    text-align: center;
+    border: 1px solid black;
+    background-color:white;
+    box-shadow: 1px 3px 20px white;
+    width: 17%;
+    border-radius: 4px 4px 4px 4px;
+    height:max-content;
+    padding: 20px;
+}
+.btn{
+    background-color:rgb(80, 228, 80);
+    height: max-content;
+    width: 170px;
+    border-radius: 4px 4px 4px 4px;
+    height: 30px;
+
+}
+.pass{
+    text-decoration: none;
+    color: blue;
+    
+}
+.create{
+    text-decoration: none;
+    color: blue;
+}
+.git{
+    border: 1px solid black;
+    width: 17%;
+    margin-top: 10px;
+    border-radius: 3px 3px 3px 3px;
+    height:20px;
+    padding: 20px;
+}
+.t{
+    text-decoration: none;
+}
+.p{
+    text-decoration: none;
+}
+.s{
+    text-decoration: none;
+}
+.foot{
+    margin-top: 40px;
+}
+.user{
+    border-radius: 4px 4px 4px 4px;
+}
+.user1{
+    border-radius: 4px 4px 4px 4px;
+}
