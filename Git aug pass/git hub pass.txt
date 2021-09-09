@@ -1,1 +1,15 @@
 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
+
+//to local
+
+*git add -A
+
+git commit -m"message"
+
+git status
+
+to remote
+
+git remote add name//paste in git hub
+
+git push -u name master
