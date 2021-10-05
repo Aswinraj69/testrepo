@@ -1,4 +1,8 @@
 //nested array
+
+
+//    map,   reduce,   find,   filter,  some;
+
 var employees = [
     [1000, "ram", 15000, "hr", 1990, 2000],
     [1001, "ravi", 25000, "hr", 1989, 2005],
@@ -8,8 +12,8 @@ var employees = [
     [1005, "tom", 40000, "ba", 1990, 2015],
     [1006, "jack", 32000, "ba", 2001, 2010],
 ]
-var employee_names=employees.map((emp)=>emp[1])
-console.log(employee_names);
+// var employee_names=employees.map((emp)=>emp[1])
+// console.log(employee_names);
 //print number of employees
 // console.log("employees=", employees.length);
 
@@ -33,7 +37,18 @@ console.log(employee_names);
 // //print total sum of salary group by developers
 // var high_salary = 0;
 // for (let employee of employees) {
-//     if (high_salary < employee[2]) {
+//     if (high_salary < employee[  2]) {
 //         high_salary = employee[2]
 //     }
 // } console.log("max salary=", high_salary);
+var experiance =employees.filter((emp)=>emp[3]=="developer" & (emp[5]-emp[4]>6)).map(emp=>emp[1])
+console.log(experiance);
+
+var salary=employees.filter((emp)=>emp[3]=="developer").map(emp=>emp[2]+5000)
+console.log(salary);
+
+employees.sort((emp1,emp2)=>emp2[5]-emp2[4]-(emp1[5]-emp1[4]))
+console.log(employees);
+
+var res = employees.filter((emp)=>emp[3]=="developer").sort((emp1,emp2)=>emp1[2]-emp2[2])
+console.log(res);

@@ -12,9 +12,6 @@ var products = [
 
 ]
 
-// var product_details = products.map((pro)=>pro[0])
-// console.log(product_details);
-
 var product_count = 0;
 for (let product of products) {
     var product_details = products.map((pro) => pro[0])
@@ -33,5 +30,13 @@ for (let product of products) {
 console.log("availabe items=", available_count);
 
 
+
 var product_names=products.map((pro)=>pro[1])
 console.log("product names=" , product_names);
+
+
+var out = products.filter((item)=>item[3]==0).map(item=>item[1])
+console.log(out);
+
+// var offer = products.filter((item)=>item[3]>50).map([item=>[item[1],item[2]-5]    
+// console.log(offer);
